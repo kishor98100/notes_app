@@ -1,0 +1,73 @@
+name: notes_app
+description: Notes Application using AppWrite
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.3
+  appwrite: ^1.0.0
+  intl: ^0.17.0
+  flutter_bloc: ^7.2.0
+  hydrated_bloc: ^7.0.1
+  get_it: ^7.2.0
+  injectable: ^1.5.0
+  animations: ^2.0.1
+  font_awesome_flutter: ^9.1.0
+  freezed_annotation: ^0.14.3
+  json_serializable: ^5.0.0
+  dartz: ^0.10.0
+  internet_connection_checker: ^0.0.1+2
+  equatable: ^2.0.3
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.1.2
+  injectable_generator: ^1.5.1
+  freezed: ^0.14.5
+  lints: ^1.0.1
+
+dependency_overrides:
+  meta: ^1.7.0
+
+
+flutter:
+  uses-material-design: true
+
+
+  assets:
+    - assets/images
+
+
+  fonts:
+#    - family: Glory
+#      fonts:
+#        - asset: assets/fonts/Glory-Regular.ttf
+#        - asset: assets/fonts/Glory-Medium.ttf
+#          weight: 500
+#        - asset: assets/fonts/Glory-SemiBold.ttf
+#          weight: 600
+#        - asset: assets/fonts/Glory-Bold.ttf
+#          weight: 700
+#        - asset: assets/fonts/Glory-Italic.ttf
+#          style: italic
+
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Regular.ttf
+        - asset: assets/fonts/Manrope-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-Bold.ttf
+          weight: 700
